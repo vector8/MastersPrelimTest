@@ -1,0 +1,5 @@
+syntax: glob
+.vs/
+Library/
+*.csproj
+*.sln
