@@ -8,17 +8,16 @@ public class LocomotionDeviceManager : MonoBehaviour
     {
         Teleporting,
         ButtController,
-        WiiFit,
-        ThreeDRudder
+        Wasd
     }
 
     private ArduinoComponent arduinoComp;
     private WasdController wasdController;
+    private FirstPersonController fpsController;
 
     // Use this for initialization
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -29,6 +28,10 @@ public class LocomotionDeviceManager : MonoBehaviour
 
     public void initialize(Devices currentDevice)
     {
+        arduinoComp = GetComponent<ArduinoComponent>();
+        wasdController = GetComponent<WasdController>();
+        fpsController = GetComponent<FirstPersonController>();
+
         arduinoComp.enabled = false;
         wasdController.enabled = false;
 
@@ -39,12 +42,13 @@ public class LocomotionDeviceManager : MonoBehaviour
             case Devices.ButtController:
                 arduinoComp.enabled = true;
                 break;
-            case Devices.WiiFit:
-            case Devices.ThreeDRudder:
+            case Devices.Wasd:
                 wasdController.enabled = true;
                 break;
             default:
                 break;
         }
+
+        fpsController.currentDevice = currentDevice;
     }
 }

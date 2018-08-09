@@ -27,7 +27,7 @@ public class TestController : MonoBehaviour
         }
         else
         {
-            teleportingController.SetActive(false);
+            //teleportingController.SetActive(false);
             locomotionController.gameObject.SetActive(true);
             locomotionController.initialize(currentDevice);
         }

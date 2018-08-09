@@ -9,6 +9,7 @@ public class ArduinoComponent : MonoBehaviour
     public string port;
 
     public Transform directionFacing;
+    public Transform fallbackDirectionFacing;
 
     private bool lastStepRight = false;
     private float stepCooldownTimer = 0f;
