@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(AudioSource))]
 public class FirstPersonController : MonoBehaviour
 {
+    public LocomotionDeviceManager.Devices currentDevice;
+
     [SerializeField] private bool m_IsWalking;
     [SerializeField] private float m_WalkSpeed;
     [SerializeField] private float m_RunSpeed;
@@ -58,8 +60,11 @@ public class FirstPersonController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        float horizontal = CustomInput.GetAxis("Horizontal");
-        transform.localEulerAngles = transform.localEulerAngles + new Vector3(0.0f, horizontal * turnSpeed * Time.deltaTime, 0.0f);
+        if(currentDevice == LocomotionDeviceManager.Devices.Wasd)
+        {
+            float horizontal = CustomInput.GetAxis("Horizontal");
+            transform.localEulerAngles = transform.localEulerAngles + new Vector3(0.0f, horizontal * turnSpeed * Time.deltaTime, 0.0f);
+        }
 
         // the jump state needs to read here to make sure it is not missed
         if (!m_Jump)
@@ -201,7 +206,11 @@ public class FirstPersonController : MonoBehaviour
     private void GetInput(out float speed)
     {
         // Read input
-        float horizontal = 0f;// CustomInput.GetAxis("Horizontal");
+        float horizontal = 0f;
+        if (currentDevice == LocomotionDeviceManager.Devices.ButtController)
+        {
+           horizontal = CustomInput.GetAxis("Horizontal");
+        }
         float vertical = CustomInput.GetAxis("Vertical");
 
         bool waswalking = m_IsWalking;
