@@ -6,7 +6,7 @@ public class TestController : MonoBehaviour
 {
     public LocomotionDeviceManager.Devices currentDevice;
 
-    public GameObject teleportingController;
+    public GameObject[] teleportingObjs;
     public LocomotionDeviceManager locomotionController;
 
     public GameObject pathGroup1, pathGroup2, pathGroup3;
@@ -14,29 +14,27 @@ public class TestController : MonoBehaviour
     public GameObject ball, cube;
 
     public MetricsGatherer metrics;
+    public objectTracker tracker;
+
+    void Awake()
+    {
+        foreach (GameObject obj in teleportingObjs)
+        {
+            obj.SetActive(currentDevice == LocomotionDeviceManager.Devices.Teleporting);
+        }
+        locomotionController.initialize(currentDevice);
+    }
 
     // Use this for initialization
     void Start()
     {
         metrics.startTimer("FullRun");
-
-        if(currentDevice == LocomotionDeviceManager.Devices.Teleporting)
-        {
-            teleportingController.SetActive(true);
-            locomotionController.gameObject.SetActive(false);
-        }
-        else
-        {
-            //teleportingController.SetActive(false);
-            locomotionController.gameObject.SetActive(true);
-            locomotionController.initialize(currentDevice);
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void onBallPickup()
@@ -57,7 +55,7 @@ public class TestController : MonoBehaviour
 
     public void onBallDetach()
     {
-        if(pathGroup2.activeSelf)
+        if (pathGroup2.activeSelf)
         {
             // maybe do something to tell them to pick up the ball again?
         }
