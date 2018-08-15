@@ -13,6 +13,8 @@ public class MetricsGatherer : MonoBehaviour
     public Transform[] positionsToTrack;
     public Transform[] orientationsToTrack;
 
+    public objectTracker tracker;
+
     private Dictionary<string, float> timers = new Dictionary<string, float>();
     private List<string> activeTimerKeys = new List<string>();
 
@@ -136,7 +138,7 @@ public class MetricsGatherer : MonoBehaviour
         trackedOrientations[key] = t;
     }
 
-    private void OnApplicationQuit()
+    public void quit()
     {
         // write all metrics to file
         string filename = savefilePrefix + System.DateTime.Now.ToString("yyyyMMddHHmmss");
@@ -144,7 +146,9 @@ public class MetricsGatherer : MonoBehaviour
 
         foreach(string k in timers.Keys)
         {
+
             output += k + ":" + timers[k] + "\n";
+            tracker.addTimer(k, timers[k]);
         }
 
         foreach(string k in trackedVec3Lists.Keys)
