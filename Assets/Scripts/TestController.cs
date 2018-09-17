@@ -14,11 +14,10 @@ public class TestController : MonoBehaviour
     public GameObject ball, cube;
 
     public MetricsGatherer metrics;
-    public objectTracker tracker;
 
-    void Awake()
+    private void Awake()
     {
-        foreach (GameObject obj in teleportingObjs)
+        foreach(GameObject obj in teleportingObjs)
         {
             obj.SetActive(currentDevice == LocomotionDeviceManager.Devices.Teleporting);
         }
@@ -34,7 +33,7 @@ public class TestController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void onBallPickup()
@@ -55,7 +54,7 @@ public class TestController : MonoBehaviour
 
     public void onBallDetach()
     {
-        if (pathGroup2.activeSelf)
+        if(pathGroup2.activeSelf)
         {
             // maybe do something to tell them to pick up the ball again?
         }
