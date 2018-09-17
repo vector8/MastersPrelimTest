@@ -3,3 +3,5 @@ syntax: glob
 Library/
 *.csproj
 *.sln
+obj/
+Temp/
