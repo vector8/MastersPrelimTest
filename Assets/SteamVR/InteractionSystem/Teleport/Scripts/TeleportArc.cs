@@ -267,6 +267,7 @@ namespace Valve.VR.InteractionSystem
 				{
 					if ( hitInfo.collider.GetComponent<IgnoreTeleportTrace>() == null )
 					{
+                        print(hitInfo.gameObject.name);
 						Util.DrawCross( hitInfo.point, Color.red, 0.5f );
 						float segmentDistance = Vector3.Distance( segmentStartPos, segmentEndPos );
 						float hitTime = segmentStartTime + ( timeStep * ( hitInfo.distance / segmentDistance ) );
