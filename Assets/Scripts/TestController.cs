@@ -61,6 +61,7 @@ public class TestController : MonoBehaviour
 
         metrics.stopTimer("BallHold");
         metrics.startTimer("BallDrop");
+        metrics.incrementCounter("BallDrop");
     }
 
     public void onCubePickup()
@@ -86,5 +87,6 @@ public class TestController : MonoBehaviour
 
         metrics.startTimer("CubeDrop");
         metrics.stopTimer("CubeHold");
+        metrics.incrementCounter("CubeDrop");
     }
 }
