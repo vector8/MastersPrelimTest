@@ -13,6 +13,7 @@ public class MetricsGatherer : MonoBehaviour
     public Transform[] positionsToTrack;
     public Transform[] orientationsToTrack;
 
+    private Dictionary<string, uint> counters = new Dictionary<string, uint>();
     private Dictionary<string, float> timers = new Dictionary<string, float>();
     private List<string> activeTimerKeys = new List<string>();
 
@@ -136,18 +137,45 @@ public class MetricsGatherer : MonoBehaviour
         trackedOrientations[key] = t;
     }
 
+    public void incrementCounter(string key, uint value = 1)
+    {
+        if (!counters.ContainsKey(key))
+        {
+            counters[key] = 0;
+        }
+
+        counters[key] += value; 
+    }
+
+    public void decrementCounter(string key, uint value = 1)
+    {
+        if (!counters.ContainsKey(key) || counters[key] == 0)
+        {
+            counters[key] = 0;
+            return;
+        }
+
+        counters[key] -= value;
+    }
+
     private void OnApplicationQuit()
     {
         // write all metrics to file
         string filename = savefilePrefix + System.DateTime.Now.ToString("yyyyMMddHHmmss");
-        string output = "";
-
+        string output = "timers:\n";
         foreach(string k in timers.Keys)
         {
             output += k + ":" + timers[k] + "\n";
         }
 
-        foreach(string k in trackedVec3Lists.Keys)
+        output += "counters:\n";
+        foreach(string k in counters.Keys)
+        {
+            output += k + ":" + counters[k] + "\n";
+        }
+
+        output += "vec3:\n";
+        foreach (string k in trackedVec3Lists.Keys)
         {
             output += k + ":";
 
@@ -161,6 +189,7 @@ public class MetricsGatherer : MonoBehaviour
             output += "\n";
         }
 
+        System.IO.Directory.CreateDirectory(outputDirectory);
         System.IO.File.WriteAllText(outputDirectory + filename, output);
     }
 }

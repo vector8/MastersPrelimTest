@@ -68,6 +68,9 @@ public class ArduinoComponent : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        sp.Close();
+        if(sp != null)
+        {
+            sp.Close();
+        }
     }
 }
