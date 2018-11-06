@@ -6,6 +6,8 @@ public class MetricsGatherer : MonoBehaviour
 {
     public string outputDirectory;
     public string savefilePrefix;
+    public string subjectName;
+    public string deviceName;
 
     // Number of samples to take per second
     public float granularity = 1.0f;
@@ -161,7 +163,7 @@ public class MetricsGatherer : MonoBehaviour
     private void OnApplicationQuit()
     {
         // write all metrics to file
-        string filename = savefilePrefix + System.DateTime.Now.ToString("yyyyMMddHHmmss");
+        string filename = subjectName + "_" + deviceName + "_" + savefilePrefix + System.DateTime.Now.ToString("yyyyMMddHHmmss");
         string output = "timers:\n";
         foreach(string k in timers.Keys)
         {
