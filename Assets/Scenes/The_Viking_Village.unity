@@ -5973,6 +5973,161 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a5c7299f41b189149aaf8fb6f10a66f0,
     type: 2}
   m_PrefabInternal: {fileID: 203343484}
+--- !u!43 &205861649
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 9
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_VertexData:
+    serializedVersion: 2
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimized: 0
 --- !u!1 &205918287
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,6 +8195,147 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 60632b040551069419e2002a35487752,
     type: 2}
   m_PrefabInternal: {fileID: 265660822}
+--- !u!1 &268180869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268180874}
+  - component: {fileID: 268180873}
+  - component: {fileID: 268180872}
+  - component: {fileID: 268180871}
+  - component: {fileID: 268180870}
+  m_Layer: 0
+  m_Name: UpperPedal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &268180870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268180869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c3243cb71a14fddac9160a20d2a48e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 591
+    y: 301
+    width: 118
+    height: 79
+  nodes:
+  - name: ReactingTarget
+    text: Cube (1)
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 321
+      width: 118
+      height: 18
+    updated: 1
+  - name: rotation
+    text: Rotation
+    nodeType: 2
+    objectTarget: {fileID: 2092949702}
+    tooltip: Input<Quaternion>
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 339
+      width: 118
+      height: 18
+    updated: 1
+  - name: RotationReactor
+    text: RotationReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationReactor
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 357
+      width: 118
+      height: 18
+    updated: 1
+  smoothFollow: 0
+--- !u!65 &268180871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268180869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &268180872
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268180869}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &268180873
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268180869}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &268180874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268180869}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 49.71, y: 41.2, z: 48.34}
+  m_LocalScale: {x: 3.6828, y: 3.6828, z: 3.6828}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &269083895
 Prefab:
   m_ObjectHideFlags: 0
@@ -19215,6 +19511,163 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 483352, guid: 7cabe2baa5a86b247b43c021e54035b6,
     type: 2}
   m_PrefabInternal: {fileID: 624774817}
+--- !u!1 &624942631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624942632}
+  - component: {fileID: 624942633}
+  m_Layer: 0
+  m_Name: MPU Sensor 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624942632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624942631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &624942633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624942631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7531ed7232e8346739929aea4e813501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 460
+    y: 108
+    width: 87
+    height: 151
+  nodes:
+  - name: gameObject
+    text: MPU Sensor 2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 128
+      width: 87
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 1'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 146
+      width: 87
+      height: 18
+    updated: 1
+  - name: model
+    text: MPU6050
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Model Name
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 164
+      width: 87
+      height: 18
+    updated: 1
+  - name: secondary
+    text: Secondary
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Secondary
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 182
+      width: 87
+      height: 18
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 200
+      width: 87
+      height: 18
+    updated: 1
+  - name: rotation
+    text: Rotation
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: 
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 218
+      width: 87
+      height: 18
+    updated: 1
+  - name: MPUSeries
+    text: MPUSeries
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MPUSeries
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 236
+      width: 87
+      height: 18
+    updated: 1
+  id: 1
+  model: 0
+  secondary: 1
+  forward: {x: 0, y: 0, z: 1}
+  up: {x: 0, y: 1, z: 0}
+  OnStartCalibration:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCalibrated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 624942631}
+        m_MethodName: BroadcastMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MPU 2 now calibrated!
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &629332852
 Prefab:
   m_ObjectHideFlags: 0
@@ -29846,161 +30299,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: b375698b498496640b77976be04ec05e,
     type: 2}
   m_PrefabInternal: {fileID: 939440748}
---- !u!43 &941473157
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 9
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_VertexData:
-    serializedVersion: 2
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimized: 0
 --- !u!1001 &945870833
 Prefab:
   m_ObjectHideFlags: 0
@@ -31750,39 +32048,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 4fc13c77ac16e204d961d1f47541e29c,
     type: 2}
   m_PrefabInternal: {fileID: 994188637}
---- !u!21 &994237304
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &994920551
 Prefab:
   m_ObjectHideFlags: 0
@@ -32140,6 +32405,249 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 31ff1d9c660717640aa75c9feef614cd,
     type: 2}
   m_PrefabInternal: {fileID: 1011215587}
+--- !u!1 &1012303420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012303423}
+  - component: {fileID: 1012303422}
+  - component: {fileID: 1012303421}
+  m_Layer: 0
+  m_Name: Ardunity Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1012303421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012303420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919922910c30f4f2da9ed21286f8cdbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 78
+    y: 77
+    width: 102
+    height: 79
+  nodes:
+  - name: baudrate
+    text: 115200 bps
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Serial Baudrate Speed
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 97
+      width: 102
+      height: 18
+    updated: 1
+  - name: CommSocket
+    text: CommSocket
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: CommSocket
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 115
+      width: 102
+      height: 18
+    updated: 1
+  - name: CommSerial
+    text: CommSerial
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: CommSerial
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 133
+      width: 102
+      height: 18
+    updated: 1
+  foundDevices:
+  - name: cu.Bluetooth-Incoming-Port
+    address: /dev/cu.Bluetooth-Incoming-Port
+    args: []
+  - name: cu.TaoTronicsTT-BH22-CSRGA-1
+    address: /dev/cu.TaoTronicsTT-BH22-CSRGA-1
+    args: []
+  - name: cu.iPhone-WirelessiAP
+    address: /dev/cu.iPhone-WirelessiAP
+    args: []
+  - name: cu.macwifi-Bluetooth-Incom
+    address: /dev/cu.macwifi-Bluetooth-Incom
+    args: []
+  - name: cu.usbmodem14101
+    address: /dev/cu.usbmodem14101
+    args: []
+  device:
+    name: cu.usbmodem14101
+    address: /dev/cu.usbmodem14101
+    args: []
+  OnOpen:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnClose:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnOpenFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnErrorClosed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnStartSearch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnStopSearch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnWriteCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnFoundDevice:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Ardunity.CommDeviceEvent, ArdunityCore, Version=1.0.6426.30151, Culture=neutral,
+      PublicKeyToken=null
+  baudrate: 115200
+  dtrReset: 1
+--- !u!114 &1012303422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012303420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1389280112, guid: f6f400c45f7404b8785954fd9df78bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 217
+    y: 77
+    width: 119
+    height: 79
+  nodes:
+  - name: stream
+    text: Serial (115200 bps)
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Arduino Stream Class
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 97
+      width: 119
+      height: 18
+    updated: 1
+  - name: CommSocket
+    text: CommSocket
+    nodeType: 2
+    objectTarget: {fileID: 1012303421}
+    tooltip: CommSocket
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 115
+      width: 119
+      height: 18
+    updated: 1
+  - name: ArdunityApp
+    text: ArdunityApp
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 133
+      width: 119
+      height: 18
+    updated: 1
+  timeoutSec: 5
+  streamClass: 0
+  filterStream: 0
+  bypassStream: 0
+  baudrate: 115200
+  rxPin: 0
+  txPin: 0
+  bypassBaudrate: 115200
+  bypassRxPin: 0
+  bypassTxPin: 0
+  tcpPort: 0
+  pwmResolution: 256
+  adcResolution: 1024
+  autoConnect: 1
+  debug: 0
+  OnConnected:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnConnectionFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnDisconnected:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnLostConnection:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!4 &1012303423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012303420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2092949701}
+  - {fileID: 624942632}
+  - {fileID: 1662585240}
+  - {fileID: 1158513281}
+  - {fileID: 1837130801}
+  - {fileID: 1991026698}
+  - {fileID: 268180874}
+  - {fileID: 1279432323}
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1012910316
 GameObject:
   m_ObjectHideFlags: 0
@@ -36767,6 +37275,132 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: b6286938954000e4bad9aeb93ef3ca30,
     type: 2}
   m_PrefabInternal: {fileID: 1158009857}
+--- !u!1 &1158513280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158513281}
+  - component: {fileID: 1158513282}
+  m_Layer: 0
+  m_Name: Pressure Sensor 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1158513281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158513280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158513282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158513280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91bae1ae651e43aca6c8036104e86ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 20
+    y: 237
+    width: 111
+    height: 133
+  nodes:
+  - name: gameObject
+    text: Pressure Sensor 2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 257
+      width: 111
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 101'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 275
+      width: 111
+      height: 18
+    updated: 1
+  - name: pin
+    text: 'Pin: A1'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Arduino Analog Pin
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 293
+      width: 111
+      height: 18
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 311
+      width: 111
+      height: 18
+    updated: 1
+  - name: Value
+    text: Value
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 329
+      width: 111
+      height: 18
+    updated: 1
+  - name: AnalogInput
+    text: AnalogInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: AnalogInput
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 347
+      width: 111
+      height: 18
+    updated: 1
+  id: 101
+  pin: 1
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Ardunity.FloatEvent, ArdunityCore, Version=1.0.6426.30151, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1001 &1161824979
 Prefab:
   m_ObjectHideFlags: 0
@@ -38504,6 +39138,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: b6286938954000e4bad9aeb93ef3ca30,
     type: 2}
   m_PrefabInternal: {fileID: 1211215495}
+--- !u!1 &1212471610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1857323064237376, guid: 94dad35e122c44c4c87c0d398def8c28,
+    type: 2}
+  m_PrefabInternal: {fileID: 1219616052}
+--- !u!114 &1212471617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1212471610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418bd8af5bd5b4e4292277ed812eeac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpperPedal: {fileID: 268180869}
+  LowerPedal: {fileID: 1279432318}
+  movementSpeed: 5
+  turnSpeed: 90
 --- !u!1001 &1212876983
 Prefab:
   m_ObjectHideFlags: 0
@@ -38763,12 +39417,12 @@ Prefab:
         type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 941473157}
+      objectReference: {fileID: 205861649}
     - target: {fileID: 23340649484612770, guid: 94dad35e122c44c4c87c0d398def8c28,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 994237304}
+      objectReference: {fileID: 1460902877}
     - target: {fileID: 114201454688531948, guid: 94dad35e122c44c4c87c0d398def8c28,
         type: 2}
       propertyPath: movementSpeed
@@ -40703,6 +41357,147 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6e2eab48a2a561b4fa3c068ad21b25fe,
     type: 2}
   m_PrefabInternal: {fileID: 1279134715}
+--- !u!1 &1279432318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279432323}
+  - component: {fileID: 1279432322}
+  - component: {fileID: 1279432321}
+  - component: {fileID: 1279432320}
+  - component: {fileID: 1279432319}
+  m_Layer: 0
+  m_Name: LowerPedal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1279432319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279432318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c3243cb71a14fddac9160a20d2a48e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 591
+    y: 155
+    width: 118
+    height: 79
+  nodes:
+  - name: ReactingTarget
+    text: Cube (2)
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 175
+      width: 118
+      height: 18
+    updated: 1
+  - name: rotation
+    text: Rotation
+    nodeType: 2
+    objectTarget: {fileID: 624942633}
+    tooltip: Input<Quaternion>
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 193
+      width: 118
+      height: 18
+    updated: 1
+  - name: RotationReactor
+    text: RotationReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationReactor
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 211
+      width: 118
+      height: 18
+    updated: 1
+  smoothFollow: 0
+--- !u!65 &1279432320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279432318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1279432321
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279432318}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1279432322
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279432318}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1279432323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279432318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 44.9, y: 41.2, z: 48.49}
+  m_LocalScale: {x: 3.6828, y: 3.6828, z: 3.6828}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1281542436
 Prefab:
   m_ObjectHideFlags: 0
@@ -42635,7 +43430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c45f6a1cb51ccf419f3980ff19164f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDevice: 0
+  currentDevice: 2
   teleportingObjs:
   - {fileID: 50681952}
   - {fileID: 1716831345}
@@ -45869,6 +46664,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422,
     type: 2}
   m_PrefabInternal: {fileID: 1459830788}
+--- !u!21 &1460902877
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1461673215 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c24559634a7c3084ab1129880c447f7b,
@@ -50756,8 +51584,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1624390208}
-  m_LocalRotation: {x: 0, y: 0.76894355, z: 0, w: 0.6393167}
-  m_LocalPosition: {x: -46.39, y: -1.4519949, z: -37.87}
+  m_LocalRotation: {x: 0.087172285, y: 0.89959055, z: 0.21045254, w: -0.37262255}
+  m_LocalPosition: {x: 69.96887, y: -44.7342, z: 69.96887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51488,6 +52316,132 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ce90ffe5db14991499266a3a40d7e318,
     type: 2}
   m_PrefabInternal: {fileID: 1660497173}
+--- !u!1 &1662585239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662585240}
+  - component: {fileID: 1662585241}
+  m_Layer: 0
+  m_Name: 'Pressure Sensor '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1662585240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1662585239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1662585241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1662585239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91bae1ae651e43aca6c8036104e86ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 27
+    y: 393
+    width: 104
+    height: 133
+  nodes:
+  - name: gameObject
+    text: 'Pressure Sensor '
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 413
+      width: 104
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 100'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 431
+      width: 104
+      height: 18
+    updated: 1
+  - name: pin
+    text: 'Pin: A0'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Arduino Analog Pin
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 449
+      width: 104
+      height: 18
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 467
+      width: 104
+      height: 18
+    updated: 1
+  - name: Value
+    text: Value
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 485
+      width: 104
+      height: 18
+    updated: 1
+  - name: AnalogInput
+    text: AnalogInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: AnalogInput
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 503
+      width: 104
+      height: 18
+    updated: 1
+  id: 100
+  pin: 0
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Ardunity.FloatEvent, ArdunityCore, Version=1.0.6426.30151, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &1664299145
 GameObject:
   m_ObjectHideFlags: 0
@@ -56499,6 +57453,130 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddfd4e07d34580a4e89ee5d0f094307d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1837130800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837130801}
+  - component: {fileID: 1837130802}
+  m_Layer: 0
+  m_Name: Motor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1837130801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837130800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837130802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837130800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c83ee2b46789479db82529b38470191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 229
+    y: 378
+    width: 108
+    height: 133
+  nodes:
+  - name: gameObject
+    text: Motor
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 398
+      width: 108
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 9'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 416
+      width: 108
+      height: 18
+    updated: 1
+  - name: pin
+    text: 'Pin: ~ 9'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Arduino PWM Pin
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 434
+      width: 108
+      height: 18
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 452
+      width: 108
+      height: 18
+    updated: 1
+  - name: Value
+    text: Value
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 470
+      width: 108
+      height: 18
+    updated: 1
+  - name: AnalogOutput
+    text: AnalogOutput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: AnalogOutput
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 488
+      width: 108
+      height: 18
+    updated: 1
+  id: 9
+  pin: 9
+  defaultValue: 0
+  resetOnStop: 1
+  Value: 0
 --- !u!1001 &1838876019
 Prefab:
   m_ObjectHideFlags: 0
@@ -61319,6 +62397,130 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 6444e796ec18c4a4eb555f26a837c446,
     type: 2}
   m_PrefabInternal: {fileID: 1982984764}
+--- !u!1 &1991026697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991026698}
+  - component: {fileID: 1991026699}
+  m_Layer: 0
+  m_Name: Motor 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991026698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991026697}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1991026699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991026697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c83ee2b46789479db82529b38470191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 230
+    y: 234
+    width: 108
+    height: 133
+  nodes:
+  - name: gameObject
+    text: Motor 2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 254
+      width: 108
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 10'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 272
+      width: 108
+      height: 18
+    updated: 1
+  - name: pin
+    text: 'Pin: ~ 10'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Arduino PWM Pin
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 290
+      width: 108
+      height: 18
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 308
+      width: 108
+      height: 18
+    updated: 1
+  - name: Value
+    text: Value
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 326
+      width: 108
+      height: 18
+    updated: 1
+  - name: AnalogOutput
+    text: AnalogOutput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: AnalogOutput
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 344
+      width: 108
+      height: 18
+    updated: 1
+  id: 10
+  pin: 10
+  defaultValue: 0
+  resetOnStop: 1
+  Value: 0
 --- !u!1001 &1993243689
 Prefab:
   m_ObjectHideFlags: 0
@@ -64785,6 +65987,163 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: ddfd4e07d34580a4e89ee5d0f094307d,
     type: 2}
   m_PrefabInternal: {fileID: 2092373825}
+--- !u!1 &2092949700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092949701}
+  - component: {fileID: 2092949702}
+  m_Layer: 0
+  m_Name: MPU Sensor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2092949701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2092949700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1012303423}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2092949702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2092949700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7531ed7232e8346739929aea4e813501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 459
+    y: 318
+    width: 87
+    height: 133
+  nodes:
+  - name: gameObject
+    text: MPU Sensor
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: GameObject
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 338
+      width: 87
+      height: 18
+    updated: 1
+  - name: id
+    text: 'ID: 0'
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Controller ID
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 356
+      width: 87
+      height: 18
+    updated: 1
+  - name: model
+    text: MPU6050
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Model Name
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 374
+      width: 87
+      height: 18
+    updated: 1
+  - name: secondary
+    text: 
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Secondary
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 0
+      width: 87
+      height: 0
+    updated: 1
+  - name: owner
+    text: Owner
+    nodeType: 2
+    objectTarget: {fileID: 1012303422}
+    tooltip: ArdunityApp
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 392
+      width: 87
+      height: 18
+    updated: 1
+  - name: rotation
+    text: Rotation
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: 
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 410
+      width: 87
+      height: 18
+    updated: 1
+  - name: MPUSeries
+    text: MPUSeries
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MPUSeries
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 428
+      width: 87
+      height: 18
+    updated: 1
+  id: 0
+  model: 0
+  secondary: 0
+  forward: {x: 0, y: 0, z: 1}
+  up: {x: 0, y: 1, z: 0}
+  OnStartCalibration:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCalibrated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2092949700}
+        m_MethodName: BroadcastMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MPU 1 now calibrated!
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &2093733912
 Prefab:
   m_ObjectHideFlags: 0

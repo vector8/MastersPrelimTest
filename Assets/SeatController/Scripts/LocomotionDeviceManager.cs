@@ -8,12 +8,15 @@ public class LocomotionDeviceManager : MonoBehaviour
     {
         Teleporting,
         ButtController,
+        FootPedals,
         Wasd
     }
 
     private ArduinoComponent arduinoComp;
     private WasdController wasdController;
     private FirstPersonController fpsController;
+
+    private FootPedalController footController;
 
     // Use this for initialization
     void Start()
@@ -31,6 +34,7 @@ public class LocomotionDeviceManager : MonoBehaviour
         arduinoComp = GetComponent<ArduinoComponent>();
         wasdController = GetComponent<WasdController>();
         fpsController = GetComponent<FirstPersonController>();
+        footController = GetComponent<FootPedalController>();
 
         arduinoComp.enabled = false;
         wasdController.enabled = false;
@@ -45,6 +49,10 @@ public class LocomotionDeviceManager : MonoBehaviour
             case Devices.Wasd:
                 wasdController.enabled = true;
                 break;
+            case Devices.FootPedals:
+                footController.enabled = true;
+                break;
+
             default:
                 break;
         }
