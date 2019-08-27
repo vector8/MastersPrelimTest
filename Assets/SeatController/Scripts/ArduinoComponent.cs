@@ -30,14 +30,14 @@ public class ArduinoComponent : MonoBehaviour
         try
         {
             string arduinoOutput = sp.ReadLine();
-            print(arduinoOutput);
-            if ((arduinoOutput[0] == '1' || arduinoOutput[0] == '3') && !lastStepRight)
+            //print(arduinoOutput);
+            if ((arduinoOutput[0] == '1' /*|| arduinoOutput[0] == '3'*/) && !lastStepRight)
             {
                 lastStepRight = !lastStepRight;
                 print("Step right!");
                 stepCooldownTimer = 0f;
             }
-            else if ((arduinoOutput[0] == '2' || arduinoOutput[0] == '3') && lastStepRight)
+            else if ((arduinoOutput[0] == '2' /*|| arduinoOutput[0] == '3'*/) && lastStepRight)
             {
                 lastStepRight = !lastStepRight;
                 print("Step left!");
