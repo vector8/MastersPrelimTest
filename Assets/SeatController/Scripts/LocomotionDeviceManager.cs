@@ -7,7 +7,7 @@ public class LocomotionDeviceManager : MonoBehaviour
     public enum Devices
     {
         Teleporting,
-        ButtController,
+        HomeHiker,
         FootPedals,
         Wasd
     }
@@ -43,7 +43,7 @@ public class LocomotionDeviceManager : MonoBehaviour
         {
             case Devices.Teleporting:
                 break;
-            case Devices.ButtController:
+            case Devices.HomeHiker:
                 arduinoComp.enabled = true;
                 break;
             case Devices.Wasd:

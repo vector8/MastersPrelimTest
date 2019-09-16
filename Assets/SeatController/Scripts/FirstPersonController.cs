@@ -207,7 +207,7 @@ public class FirstPersonController : MonoBehaviour
     {
         // Read input
         float horizontal = 0f;
-        if (currentDevice == LocomotionDeviceManager.Devices.ButtController)
+        if (currentDevice == LocomotionDeviceManager.Devices.HomeHiker)
         {
            horizontal = CustomInput.GetAxis("Horizontal");
         }
