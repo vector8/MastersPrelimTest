@@ -248,6 +248,8 @@ namespace Valve.VR.InteractionSystem
 				releaseSound.Play();
 			}
 
+            TestControllerArchery.instance.onArrowShoot();
+
 			this.StartCoroutine( this.ResetDrawAnim() );
 		}
 

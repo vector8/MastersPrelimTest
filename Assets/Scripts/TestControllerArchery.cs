@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TestControllerArchery : MonoBehaviour
 {
+    public static TestControllerArchery instance;
+
     public LocomotionDeviceManager.Devices currentDevice;
 
     public GameObject[] teleportingObjs;
@@ -21,7 +23,17 @@ public class TestControllerArchery : MonoBehaviour
 
     private void Awake()
     {
-        foreach(GameObject obj in teleportingObjs)
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            DestroyImmediate(this);
+            return;
+        }
+
+        foreach (GameObject obj in teleportingObjs)
         {
             obj.SetActive(currentDevice == LocomotionDeviceManager.Devices.Teleporting);
         }
@@ -37,12 +49,12 @@ public class TestControllerArchery : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void onBowPickup()
     {
-        if(firstTime)
+        if (firstTime)
         {
             firstPathGroup.SetActive(false);
             firstTargetGroup.SetActive(true);
@@ -50,7 +62,7 @@ public class TestControllerArchery : MonoBehaviour
         }
     }
 
-    public void onArrowShot()
+    public void onArrowShoot()
     {
         metrics.incrementCounter("ArrowShot");
     }
@@ -68,11 +80,15 @@ public class TestControllerArchery : MonoBehaviour
         pathGroups[currentGroup].SetActive(false);
 
         currentGroup++;
-        if(currentGroup >= pathGroups.Length)
+        if (currentGroup >= pathGroups.Length)
         {
             // this is the end of the test
-            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
             return;
+#else
+            Application.Quit();
+#endif
         }
 
         pathGroups[currentGroup].SetActive(true);
