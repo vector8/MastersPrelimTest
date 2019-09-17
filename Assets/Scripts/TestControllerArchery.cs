@@ -43,7 +43,6 @@ public class TestControllerArchery : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        metrics.startTimer("FullRun");
     }
 
     // Update is called once per frame
@@ -70,6 +69,7 @@ public class TestControllerArchery : MonoBehaviour
     public void onFirstTargetHit()
     {
         metrics.incrementCounter("TargetHit");
+        metrics.startTimer("FullRun");
         firstTargetGroup.SetActive(false);
         pathGroups[currentGroup].SetActive(true);
     }
